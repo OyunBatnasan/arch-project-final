@@ -1,0 +1,172 @@
+body {
+  font-family: Arial;
+  padding: 0;
+  margin: 0;
+  font-size: 17px;
+}
+
+/* Header */
+.container {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header img {
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+header {
+  background: #03a3df;
+  padding-top: 30px;
+  border-bottom: #ecb722 3px solid;
+}
+
+header h1 {
+  font-size: 40px;
+  font-family: Arial;
+  font-weight: bold;
+  color: orange;
+  margin: 0;
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+header nav {
+  margin: 20px;
+  padding-bottom: 10px
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0px 20px 0px 20px;
+}
+
+header a {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+}
+
+body {
+  background: #ecb722;
+}
+
+/* Contact Form*/
+.contact-form {
+  background-color: lightgrey;
+  width: 50%;
+  margin: auto;
+  border-radius: 5px;
+  padding: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+}
+
+.gender {
+  padding-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input[type=email] {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 85px;
+}
+
+input[type=number] {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 4px;
+}
+
+.state {
+  margin-left: 85px;
+  width: 100%;
+}
+
+option {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid grey;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+input[type=submit] {
+  background-color: lightblue;
+  color: black;
+  padding: 10px 40px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+input[type=submit]:hover {
+  background-color: orange;
+}
+
+.lesson {
+  padding-left: 50px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+textarea {
+  margin-left: 135px;
+}
+
+/* Footer*/
+footer {
+  padding: 20px;
+  margin-top: 20px;
+  background: url('../images/footer.jpg');
+  overflow: hidden;
+  color: white;
+  font-size: 17px;
+  color: orange;
+}
+
+.footer-img {
+  display: block;
+  margin-left: 0px;
+}
+
+footer h5 {
+  color: black;
+  font-size: 16px;
+}
