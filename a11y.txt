@@ -1,0 +1,25 @@
+ARCH PROJECT
+-------------------------------------------------------------------
+
+Contact page
+  - added label for all form inputs
+  - made all text in page enlargeable
+  - unique descriptive page title
+
+Instructors page
+  - all images in instructor page has descriptive text with alt tag
+  - unique descriptive page title
+  - made all text in page enlargeable
+
+About page
+  - made navigation in home screen looks big and easy for click
+  - unique descriptive page title
+  - made all text in page enlargeable
+  - replaced old video with new short video about Archery
+  - added subtitle with <track> tag
+  - used this site (https://www.temi.com/) to get transcript
+
+
+Service page
+  - Meaningful section title in service pages
+  - Hierarchical structure is used as well

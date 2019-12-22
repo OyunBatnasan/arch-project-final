@@ -26,34 +26,42 @@
   <div class="contact-form">
     <form method="post" onsubmit="return false;">
       <div class="f-name">
-        First Name: <input type="text" name="your_name">
+        <label for="firstname">First Name:</label>
+        <input type="text" name="firstname">
       </div>
 
       <div class="l-name">
-        Last Name: <input type="text" name="last_name">
+        <label for="last_name">Last Name:</label>
+        <input type="text" name="last_name">
       </div>
 
       <div>
         Gender:
         <div class="gender">
-          <input type="radio" name="gender" value="Female">Female
+          <input type="radio" name="gender-female" value="Female">
+          <label for="gender-female">Female</label>
         </div>
         <div class="gender">
-          <input type="radio" name="gender" value="Male">Male
+          <input type="radio" name="male" value="Male">
+          <label for="male">Male</label>
         </div>
         <div class="gender">
-          <input type="radio" name="gender" value="Genderqueer/Non-Binary">Genderqueer/Non-Binary
+          <input type="radio" name="non-binary" value="Genderqueer/Non-Binary">
+          <label for="non-binary">Genderqueer/Non-Binary</label>
         </div>
         <div class="gender">
-          <input type="radio" name="gender" value="Prefer not to disclose">Prefer not to disclose
+          <input type="radio" name="disclose" value="Prefer not to disclose">
+          <label for="disclose">Prefer not to disclose</label>
         </div>
       </div>
       <div class="email-address">
-        Email: <input type="email" name="email_address">
+        <label for="email">Email:</label>
+        <input type="email" name="email">
       </div>
 
       <div class="mobile">
-        Contact Number: <input type="number" name="mobile">
+        <label for="mobile">Phone:</label>
+        <input type="number" name="mobile">
       </div>
 
       <div>
@@ -118,31 +126,33 @@
       <div>
         I'm interested in joining ...
         <div class="lesson">
-          <input type="checkbox" name="class" value="Basic Archery Class">Basic Archery Class
+          <input type="checkbox" name="archery">
+          <label for="">Basic Archery Class</label>
         </div>
         <div class="lesson">
-          <input type="checkbox" name="class" value="Intermediate Archery class">Intermediate Archery Class
+          <input type="checkbox" name="intermediate">
+          <label for="intermediate">Intermediate Archery class</label>
         </div>
         <div class="lesson">
-          <input type="checkbox" name="class" value="Advanced Archery Class">Advanced Archery Class
+          <input type="checkbox" name="advanced">
+          <label for="advanced">Advanced Archery Class</label>
         </div>
         <div class="lesson">
-          <input type="checkbox" name="private-lesson" value="Single Lesson">Single Lesson
+          <input type="checkbox" name="single">
+          <label for="single">Single Lesson</label>
         </div>
         <div class="lesson">
-          <input type="checkbox" name="private-lesson" value="3 Lesson Packege"> 3 Lesson Package
+          <input type="checkbox" name="private">
+          <label for="private">3 Lesson Package</label>
         </div>
         <div class="lesson">
-          <input type="checkbox" name="private-lesson" value="10 Lesson Package">10 Lesson Package
+          <input type="checkbox" name="package-10">
+          <label for="package-10">10 Lesson Package</label>
         </div>
       </div>
 
       <div>
-        Comment:
-        <div class="my-comment">
-          <textarea name="comment" rows="3" cols="180"></textarea>
-        </div>
-
+        <textarea name="comment" rows="3" cols="180" placeholder="Enter comment here"></textarea>
       </div>
 
       <div class="contact-button">

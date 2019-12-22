@@ -109,7 +109,7 @@ input[type=number] {
   box-sizing: border-box;
   margin-top: 10px;
   margin-bottom: 10px;
-  margin-left: 4px;
+  margin-left: 80px;
 }
 
 .state {
@@ -133,7 +133,7 @@ input[type=submit] {
   padding: 10px 40px;
   border-radius: 4px;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 25px;
 }
 
 input[type=submit]:hover {
